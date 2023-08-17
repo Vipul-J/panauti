@@ -273,6 +273,10 @@ white-space: nowrap;
   margin: 18px;
 }
 
+.card{
+  padding: 3rem !important;
+} 
+
 @media (max-width: 420px) {
   .sidebar li .tooltip {
     display: none;
@@ -280,6 +284,14 @@ white-space: nowrap;
 }
 
 @media (max-width: 770px){
+ 
+  .logo-details{
+    height: 70px !important;
+    padding-right: 2rem !important;
+  }
+  .card{
+    padding: 1.3rem !important;
+  } 
   .sidebar {
     position: fixed;
     left: 0;
